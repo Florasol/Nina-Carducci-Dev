@@ -6086,9 +6086,19 @@ textarea.form-control-lg {
   display: inline-block;
   width: 5rem;
   height: 5rem;
+  background-color: black;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 100% 100%;
+}
+
+@media all and (max-width: 650px) {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  }
 }
 
 /* rtl:options: {
