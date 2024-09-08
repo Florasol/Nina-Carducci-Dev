@@ -87,7 +87,7 @@ ul {
 
 #about-me p {
 	width: 80%;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 img {
@@ -144,7 +144,7 @@ img {
 	justify-content: center;
 	align-items: center;
 	display: flex;
-	font-size: 24px;
+	font-size: 40px;
 }
 
 .quote {
@@ -390,6 +390,11 @@ footer {
 	}
 	.quote__author {
 		font-size: 16px;
+	}
+	.mg-prev, .mg-next {
+		width: 30px;
+		height: 30px;
+		font-size: 24px;
 	}
 }
 
