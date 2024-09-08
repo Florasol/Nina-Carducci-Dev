@@ -83,8 +83,8 @@ ul {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
-	width: 60%;
 }
+
 #about-me p {
 	width: 80%;
 	font-size: 16px;
@@ -112,7 +112,7 @@ img {
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #5C5B23;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -390,9 +390,6 @@ footer {
 	}
 	.quote__author {
 		font-size: 16px;
-	}
-	.about-me__introduction {
-		width: 80%;
 	}
 }
 
