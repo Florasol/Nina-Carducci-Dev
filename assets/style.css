@@ -7,10 +7,6 @@ body {
 	font-style: normal;
 }
 
-p {
-	font-size: 18px;
-}
-
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -91,6 +87,7 @@ ul {
 }
 #about-me p {
 	width: 80%;
+	font-size: 16px;
 }
 
 img {
@@ -117,10 +114,10 @@ img {
 	color: #fff;
 	background-color: #BEB45A;
 	border-radius:0 ;
-	font-size: 18px;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	font-size: 18px;
 }
 .item-column {
 	position: relative;
@@ -257,12 +254,13 @@ input[type="submit"] {
 }
 	/* --> Footer <-- */
 footer {
-	background-color: #F6D2B8;
 	color: black;
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content:space-around;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 #footer-infos {
 	padding-top: 16px;
@@ -392,6 +390,9 @@ footer {
 	}
 	.quote__author {
 		font-size: 16px;
+	}
+	.about-me__introduction {
+		width: 80%;
 	}
 }
 
