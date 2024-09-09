@@ -80,6 +80,7 @@ ul {
 	margin-bottom: 60px;
 }
 .about-me__introduction {
+	width: 80%;
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
@@ -137,6 +138,12 @@ img {
 	object-fit: cover;
 	padding: .5em;
 }
+
+/* Change the size of the Font Awesome icons */
+.carousel-control-prev i, .carousel-control-next i {
+    font-size: 24px; /* Adjust icon size */
+}
+
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
