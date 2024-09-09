@@ -200,7 +200,7 @@ img {
 	background-color: white;
 	max-width: 390px;
 	width: 30%;
-	height: 337px;
+	/* height: 337px;  Empêche le texte de se chevaucher en zoomant */
 	padding: 1em;
 	display: flex;
 	flex-direction: column;
