@@ -144,7 +144,7 @@ img {
 	justify-content: center;
 	align-items: center;
 	display: flex;
-	font-size: 40px;
+	font-size: 24px;
 }
 
 .quote {
@@ -390,11 +390,6 @@ footer {
 	}
 	.quote__author {
 		font-size: 16px;
-	}
-	.mg-prev, .mg-next {
-		width: 30px;
-		height: 30px;
-		font-size: 24px;
 	}
 }
 
