@@ -6053,7 +6053,7 @@ textarea.form-control-lg {
   padding: 0;
   color: #fff;
   text-align: center;
-  background: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+  background: rgba(0, 0, 0, 0.1); /* Black background with 10% opacity */
   border: 0;
 }
 @media (prefers-reduced-motion: reduce) {
